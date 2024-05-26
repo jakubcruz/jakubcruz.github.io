@@ -494,7 +494,9 @@ a.active {
 /* ======= INTRODUCTION ======= */
 
 #intro {
-    background: url(../img/mountain-dusk.jpg);
+    background: url(../img/special_place.jpg);
+    /* background: url(../img/Bing-RingofBrodgarOrkneyScotland.jpg); */
+    /* background: url(../img/micrnd3.jpg); */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
