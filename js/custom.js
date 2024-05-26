@@ -86,3 +86,18 @@ $(function() {
     });
 
 });
+
+const timelineItems = document.querySelectorAll('.timeline-item');
+
+window.addEventListener('scroll', () => {
+  timelineItems.forEach(item => {
+    const itemTop = item.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+
+    if (itemTop < windowHeight * 0.8) {
+      item.classList.add('animate');
+    } else {
+      item.classList.remove('animate');
+    }
+  });
+});
